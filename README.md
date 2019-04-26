@@ -18,9 +18,9 @@ The player controls the blocks with the up, down, left, and right keys. The left
 ## Future features:
 
 * Difficulty settings
-[] High scores page
-[] Music options
-[] Slightly improved functionality (such as holding a key down to move a piece repeatedly)
+* High scores page
+* Music options
+* Slightly improved functionality (such as holding a key down to move a piece repeatedly)
 
 ## Author:
 
