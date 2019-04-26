@@ -277,16 +277,16 @@ def testScore(prevScore, score, numRows):
     scoreTest4 = 100
     if numRows == 1:
         assert(prevScore + scoreTest1 == score)
-        print("Clearing one row worked successfully.")
+        print("Clearing one row worked successfully, and the score is correct.")
     if numRows == 2:
         assert(prevScore + scoreTest2 == score)
-        print("Clearing two rows worked successfully.")
+        print("Clearing two rows worked successfully, and the score is correct.")
     if numRows == 3:
         assert(prevScore + scoreTest3 == score)
-        print("Clearing three rows worked successfully.")
+        print("Clearing three rows worked successfully, and the score is correct.")
     if numRows == 4:
         assert(prevScore + scoreTest4 == score)
-        print("Clearing four rows worked successfully.")
+        print("Clearing four rows worked successfully, and the score is correct.")
 
 def testSpeed(initialFallSpeed, fallSpeed, speedUpCount):
     assert ((round((initialFallSpeed - speedUpCount) * 100) / 100.00) == fallSpeed)
